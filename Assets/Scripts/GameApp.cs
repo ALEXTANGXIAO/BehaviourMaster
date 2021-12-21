@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameApp : MonoBehaviour
+public class GameApp : UnitySingleton<GameApp>
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        ActorFactory.Instance.Create("Perfab/player");
     }
 }
