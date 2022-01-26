@@ -1096,8 +1096,8 @@ GameObject:
   - component: {fileID: 3425974380439455676}
   - component: {fileID: 3425974380439455677}
   - component: {fileID: 3425974380439455674}
-  m_Layer: 0
-  m_Name: ybot 1
+  m_Layer: 8
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
